@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codingmore-helloworld" />
-        <module name="codingmore-logback" />
         <module name="codingmore-autogenerator" />
+        <module name="codingmore-logback" />
+        <module name="codingmore-mybatis" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="codingmore-autogenerator" options="-parameters" />
       <module name="codingmore-helloworld" options="-parameters" />
       <module name="codingmore-logback" options="-parameters" />
+      <module name="codingmore-mybatis" options="-parameters" />
     </option>
   </component>
 </project>

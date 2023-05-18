@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/codingmore-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/codingmore-logback/pom.xml" />
         <option value="$PROJECT_DIR$/codingmore-autogenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/codingmore-mybatis/pom.xml" />
       </list>
     </option>
   </component>
