@@ -11,7 +11,7 @@ import com.baomidou.mybatisplus.generator.config.rules.DateType;
  * @author 小子松
  * @version 1.0
  * @date 2023/5/1517:18
- * @description here is a description of this file.
+ * @description 很怪啊，打开重看一下这个很完美的运行了，在另一个里面就死活不能运行。。。包之间的依赖真的得好好捋一下了
  */
 public class CodeGenerator {
 
@@ -22,7 +22,7 @@ public class CodeGenerator {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir(projectPath + "/src/main/java");
+        gc.setOutputDir(projectPath + "/codingmore-autogenerator/src/main/java");
         gc.setAuthor("沉默王二");
         gc.setOpen(false);
         gc.setDateType(DateType.ONLY_DATE);
@@ -46,5 +46,8 @@ public class CodeGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent("top.codingmore.mpg");
+        mpg.setPackageInfo(pc);
+
+        mpg.execute();
     }
 }

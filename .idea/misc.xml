@@ -11,10 +11,15 @@
         <option value="$PROJECT_DIR$/codingmore-logback/pom.xml" />
         <option value="$PROJECT_DIR$/codingmore-autogenerator/pom.xml" />
         <option value="$PROJECT_DIR$/codingmore-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/codingmore-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/codingmore-jpa/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>

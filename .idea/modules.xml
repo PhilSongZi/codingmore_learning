@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/codingmore-mysql/codingmore-mysql.iml" filepath="$PROJECT_DIR$/codingmore-mysql/codingmore-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/codingmore_learning.iml" filepath="$PROJECT_DIR$/codingmore_learning.iml" />
     </modules>
   </component>
